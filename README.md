@@ -1,21 +1,22 @@
-# Orientação a Objetos 1/2016
+# para se ultilizar um programa que usa o MAKEFILE deve seguir alguns passos antes:
 
-## EP0 - C++
+* primeiro passo : caso as pastas obj e bin não existam, crie.
 
-* 1 - Abra a imagem no formato PPM
-* 2 - Leia o conteúdo da imagem
-* 3 - Salve o conteúdo em outro arquivo
+* segundo passo : ja até o diretorio onde as pastas se encontram, por meio do terminal do linux.
 
-* Mais detalhes na wiki [home](https://gitlab.com/OOFGA-2016-1/EP0/wikis/home)
-### Como Compilar e Executar
+* terceiro passo : ja no diretorio onde se encontram as pastas OBJ e BIN * Compile o programa: 
+insira "make" que executara o MAKEFILE.
 
-Para compilar e executar o programa em um sistema operacional Linux, siga as seguintes instruções:
+* quarto passo : após todos passos, de o comando "make run".
 
-* Abra o terminal;
-* Encontre o diretório raiz do projeto;
+# dentro do programa siga os proximos passos:
+
+* primeiro passo : a mensagem "insira o endereco da imagem a ser copiada : ".
+	insira : doc/"nome da imagem".ppm
+* segundo passo : a mensagem "insira um nome para o arquivo copiado : ".
+	insira : "nome de sua escolha".ppm
 * Limpe os arquivos objeto:
 	**$ make clean** 
-* Compile o programa: 
-	**$ make**
-* Execute:
-	**$ make run**
+
+
+Após o uso do programa, insira o comando : "makeclean", para limpar as pastas bin e obj. 
